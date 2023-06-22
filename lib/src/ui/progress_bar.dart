@@ -6,7 +6,8 @@ void hideProgressDialog(BuildContext context) {
 
 Future<bool?> showProgressDialog(BuildContext context) {
   return showDialog(
-      context: context,
-      barrierDismissible: false,
-      builder: (context) => const Center(child: CircularProgressIndicator()));
+    context: context,
+    barrierDismissible: false,
+    builder: (context) => const Center(child: CircularProgressIndicator()),
+  );
 }
