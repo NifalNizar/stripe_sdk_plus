@@ -13,10 +13,7 @@ Flutter support:
 
 See *example/main.dart* for additional short examples.
 
-See <https://github.com/ezet/stripe-sdk/tree/master/example> for a complete demo application,
-with a working example backend.
-
-Demo backend: <https://github.com/ezet/stripe-sdk-demo-api>
+See <https://github.com/NifalNizar/stripe_sdk_plus/tree/master/example> for a complete demo application.
 
 ## Features
 
@@ -44,13 +41,6 @@ Demo backend: <https://github.com/ezet/stripe-sdk-demo-api>
 ### Planned features
 
 - Offer managed UI flow for checkout
-
-## Demo application
-
-There is a complete demo application available at <https://github.com/ezet/stripe-sdk/tree/master/example/app>.
-
-<img src="https://raw.githubusercontent.com/ezet/stripe-sdk/master/doc/demo.png" width="300">
-
 
 ## Overview
 
@@ -137,12 +127,6 @@ onPressed: () {
     formKey.currentState.save();
   }
 }
-
-
-```
-
-<img src="https://raw.githubusercontent.com/ezet/stripe-sdk/master/doc/cardform.png" width="300">
-
 
 
 ## SCA/PSD2
@@ -242,6 +226,3 @@ This will also handle SCA if required.
 ### Glappen
 This is a complete application, with a mobile client and a backend API.
 Documentation is lacking, but it can serve as an example for more advanced use.
-
-App: <https://github.com/ezet/glappen-client> 
-Backend: <https://github.com/ezet/glappen-firebase-api>
