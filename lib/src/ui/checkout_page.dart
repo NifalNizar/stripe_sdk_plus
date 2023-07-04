@@ -106,6 +106,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
       showProgressDialog(context);
       // ignore: body_might_complete_normally_catch_error
       final initialPaymentIntent =
+          // ignore: body_might_complete_normally_catch_error
           await paymentIntentFuture.catchError((error) {
         hideProgressDialog(context);
       });
